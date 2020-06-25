@@ -80,6 +80,26 @@ header .social--media--links ul li a {
   color: #ffffff;
 }
 
+.hero-wrapper {
+  height: 200px;
+  padding-top: 100px;
+  background-image: url("../src/assets/background.jpg");
+  background-color: #282a36;
+  background-blend-mode: overlay;
+  text-align: center;
+  line-height: 10px;
+  color: #ffffff;
+}
+.hero-wrapper h1 {
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  line-height: 10px;
+}
+.hero-wrapper p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
 @media screen and (max-width: 767px) {
   nav {
     display: none;
