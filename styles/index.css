@@ -155,9 +155,12 @@ footer .footer--container .social--media--links ul li a {
   color: #ffffff;
 }
 .hero-wrapper h1 {
+  font-size: 30px;
   font-family: "Oswald", sans-serif;
+  line-height: 10px;
 }
 .hero-wrapper p {
+  font-size: 20px;
   padding-bottom: 10px;
 }
 
@@ -169,6 +172,11 @@ footer .footer--container .social--media--links ul li a {
   color: #ffffff;
   padding: 5px 10px;
   font-weight: bold;
+}
+
+.linkBtnCV {
+  color: #282a36;
+  background-color: #ffffff;
 }
 
 .last--jobs--container {
@@ -247,8 +255,11 @@ footer .footer--container .social--media--links ul li a {
   }
 }
 @media screen and (max-width: 540px) {
-  h1 {
+  .hero-wrapper h1 {
     font-size: 20px;
+  }
+  .hero-wrapper p {
+    font-size: 16px;
   }
 
   .tech--list {
