@@ -45,6 +45,7 @@ header .social--media--links--img {
   width: 25px;
   height: auto;
   filter: invert(100%);
+  padding: 0 5px;
 }
 header .mailBtn {
   color: #ffffff;
@@ -83,7 +84,8 @@ header .social--media--links ul li a {
 }
 .hero-wrapper p {
   font-size: 20px;
-  padding-bottom: 10px;
+  margin-bottom: 15px;
+  padding-top: 10px;
 }
 
 @media screen and (max-width: 767px) {
