@@ -155,3 +155,9 @@ footer .footer--container .social--media--links ul li a {
   text-decoration: none;
   color: #ffffff;
 }
+
+@media screen and (max-width: 540px) {
+  nav {
+    display: none;
+  }
+}
