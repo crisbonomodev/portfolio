@@ -222,6 +222,14 @@ footer .footer--container .social--media--links ul li a {
   border-radius: 10px;
   padding: 5px 5px;
 }
+.last--jobs--item a {
+  text-decoration: none;
+  color: #282a36;
+}
+
+.last--jobs--item:hover {
+  box-shadow: 0px 0px 5px 0px #7c7c7c;
+}
 
 .tech--list--container {
   width: 100vw;
