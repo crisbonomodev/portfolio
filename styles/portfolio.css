@@ -183,3 +183,19 @@ footer .footer--container .social--media--links ul li a {
 .portfolio--item:hover {
   box-shadow: 0px 0px 5px 0px #7c7c7c;
 }
+
+@media screen and (max-width: 767px) {
+  .portfolio--grid {
+    display: block;
+  }
+
+  .portfolio--item img {
+    height: auto;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .hero-wrapper h1 {
+    font-size: 30px;
+  }
+}
