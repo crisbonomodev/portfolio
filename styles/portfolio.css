@@ -41,6 +41,11 @@ header .burguerContainer img {
   width: 25px;
   height: 25px;
 }
+header .social--media--links--img {
+  width: 25px;
+  height: auto;
+  filter: invert(100%);
+}
 header .mailBtn {
   color: #ffffff;
   border: 1px solid #ffffff;
