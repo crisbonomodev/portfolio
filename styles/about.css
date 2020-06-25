@@ -87,8 +87,12 @@ header .social--media--links ul li a {
 }
 
 @media screen and (max-width: 767px) {
-  nav {
+  .navbar {
     display: none;
+  }
+
+  .navbar.is-active {
+    display: block;
   }
 
   header {
